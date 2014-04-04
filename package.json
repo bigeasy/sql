@@ -1,0 +1,34 @@
+{
+    "name":             "sql",
+    "version":          "9.9.9",
+    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
+    "description":      "Unknown.",
+    "keywords":
+    [
+                        "sql", "database", "b-tree", "mvcc"
+    ],
+    "contributors":     [],
+    "homepage":         "https://github.com/bigeasy/sql",
+    "bugs":             "https://github.com/bigeasy/sql/issues",
+    "licenses":
+    [{
+                        "type": "MIT",
+                        "url": "http://github.com/bigeasy/sql/raw/master/LICENSE"
+    }],
+    "repository":
+    {
+                        "type": "git",
+                        "url": "http://github.com/bigeasy/sql.git"
+    },
+    "dependencies":
+    {
+    },
+    "devDependencies":
+    {
+                        "proof":              "0.0.45"
+    },
+    "scripts":
+    {
+                        "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+    }
+}
